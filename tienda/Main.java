@@ -13,6 +13,9 @@ public class Main {
 		
 		de1.registrarCompra(lola, tiempoInicio);
 		de2.registrarCompra(pepe, tiempoInicio);
+		
+		de1.start();
+		de2.start();
 	}
 
 }
